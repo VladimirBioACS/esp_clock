@@ -80,7 +80,7 @@ void mcu_reset(void);
 
 void mcu_reset(void)
 {
-  delay(1000);
+  delay(5000);
   ESP.restart();
 }
 

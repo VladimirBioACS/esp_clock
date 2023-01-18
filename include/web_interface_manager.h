@@ -9,7 +9,7 @@
 #include "json_lib.h"
 #include "firmware_version.h"
 
-#define DELAY_MS      uint32_t(100)
+#define DELAY_MS      uint32_t(150)
 
 const char control_panel[] PROGMEM = R"rawliteral(
 
